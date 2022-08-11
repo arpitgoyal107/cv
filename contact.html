@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <p>Your name*
+            <input type="text" name="fname" id="fname" required placeholder="Arpit">
+            <input type="text" name="lname" id="lname" required placeholder="Goyal">
+        </p>
+        <p>your email*
+            <input type="email" name="email" id="email" required placeholder="xyz123@gmail.com">
+        </p>
+        <p>phone number*
+            <input type="number" name="p.no." id="phone" required placeholder="987654321">
+        </p>
+        <p>Subject*
+            <select name="subject" id="subject">
+                <option value=""><---Select an option--></option>
+                <option value="job enquiry">Job Enquiry</option>
+                <option value="Study Course related">Study Course Related</option>
+                <option value="fitness Consultation">Fitness Consultation</option>
+            </select>
+        </p>
+        <p>query*
+            <textarea name="message" id="message" cols="30" rows="5" required placeholder="Enter your query"></textarea>
+        </p>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+  </body>
+</html>
